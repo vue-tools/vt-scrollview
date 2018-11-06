@@ -1,6 +1,6 @@
 {
   "name": "vt-scrollview",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "",
   "main": "dist/index.vue",
   "devDependencies": {
