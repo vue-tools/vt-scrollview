@@ -194,7 +194,7 @@
         },
         computed: {},
         methods: {
-            _init(){
+            _inits(){
                 this.scrollEl = getScrollElement(this.$refs.content)
                 if (this.pullRefresh) {
                     this.$refs.content.addEventListener('touchstart', this._refreshTouchStart);
@@ -323,7 +323,7 @@
             }
         },
         mounted(){
-            this._init()
+            this._inits()
         },
         beforeDestroy() {
             this._un()
